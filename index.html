@@ -1,43 +1,70 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CONTROLLA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CONTROLLA</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
-<style>
-  body{
-    margin:0;
-    height:100vh;
-    background:#000;
-    color:#fff;
-    font-family:"Public Sans", sans-serif;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
+  <style>
+    body{
+      margin:0;
+      height:100vh;
+      background:#000;
+      color:#fff;
+      font-family:"Public Sans", sans-serif;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
 
-  .container{
-    text-align:center;
-    padding:24px;
-  }
+    .container{
+      text-align:center;
+      padding:24px;
+    }
 
-  /* ここが崩れ対策の本体 */
-  h1{
-    margin:0 0 12px;
-    font-size:60px;
-    font-weight:700;
-    letter-spacing:0.06em;
-    line-height:1;              /* 行高を固定 */
-    display:inline-flex;         /* TMを一体化 */
-    align-items:flex-start;
-    white-space:nowrap;          /* 絶対に改行させない */
-  }
+    h1{
+      margin:0 0 12px;
+      font-size:60px;
+      font-weight:700;
+      letter-spacing:0.06em;
+      line-height:1;
+      display:inline-flex;
+      align-items:flex-start;
+      white-space:nowrap;
+    }
 
-  h1 sup{
-    font-size:0.32em;            /* TMサイズ */
-    line-height:1;
-    margin-left:0.14em;
-    transform:translateY(-0.35em); /* 右上に持ち上げ*
+    h1 sup{
+      font-size:0.32em;
+      line-height:1;
+      margin-left:0.14em;
+      transform:translateY(-0.35em);
+    }
+
+    p{
+      margin:0;
+      opacity:0.7;
+      font-size:14px;
+    }
+
+    .tag{
+      margin-top:18px;
+      display:inline-block;
+      padding:8px 14px;
+      border:1px solid rgba(255,255,255,0.3);
+      border-radius:999px;
+      font-size:14px;
+      opacity:0.85;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>CONTROLLA<sup>TM</sup></h1>
+    <p>The website is currently in development.</p>
+    <div class="tag">Launching soon</div>
+  </div>
+</body>
+</html>
